@@ -67,7 +67,7 @@ for i in range(len(stores_id)):
         worksheet.write(f'A{item}', stores_name[i].text)
         worksheet.write(f'B{item}', product["id"])
         worksheet.write(f'C{item}', product["name"])
-        worksheet.write(f'D{item}', 'https://online.metro-cc.ru/category/' + product["url"])
+        worksheet.write(f'D{item}', 'https://online.metro-cc.ru' + product["url"])
         worksheet.write(f'E{item}', stores_name[i].text)
         worksheet.write(f'F{item}', stores_name[i].text)
 
